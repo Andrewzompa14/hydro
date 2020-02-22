@@ -1169,5 +1169,5 @@ if (message.content === prefix + 'help memes'){
 
 
         
- 
-        client.login('NjY0ODY4MTAzMzI2MjY5NDYx.XhdVig.JpaCCxiO4hZXlEInA9hMbLw6GiE');
+ client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
+        
